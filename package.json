@@ -14,7 +14,7 @@
 	"license": "ISC",
 	"bugs": {},
 	"dependencies": {
-		"googleapis": "^39.2.0",
+		"googleapis": "^74.2.0",
 		"mimetext": "^0.2.2"
 	}
 }
