@@ -1,5 +1,5 @@
-const to_mail = '8.aniket.chowdhury@gmail.com'
-const from_mail = 'aniket.chowdhury@nonceblox.com'
+const to_mail = 'to_mail@gmail.com'
+const from_mail = 'from_mail@gmail.com'
 
 const MIMEText = require('mimetext')
 const { MailData } = require('./email_content')
@@ -31,6 +31,6 @@ async function send_mail(email) {
 	}
 }
 
-send_mail(to_mail)
+// send_mail(to_mail)
 
 module.exports.send_mail = send_mail
